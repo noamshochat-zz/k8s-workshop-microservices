@@ -1,0 +1,13 @@
+project: "torosent/k8s-workshop-microservices"
+repository: "github.com/torosent/k8s-workshop-microservices"
+cloneURL: "https://github.com/torosent/k8s-workshop-microservices.git"
+sharedSecret: "IBrakeForSeaBeasts"
+github:
+  token: ""
+secrets:
+  acrServer: tomerplayground.azurecr.io
+  acrUsername: 
+  acrPassword: 
+vcsSidecar: "deis/git-sidecar:v0.10.0"
+allowPrivilegedJobs: "true"
+allowHostMounts: "true"
